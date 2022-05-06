@@ -1,0 +1,168 @@
+
+
+body {
+    background-color: rgb(209, 202, 194);
+    margin: 100px;
+}
+
+header {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    font-size: 25px;
+
+}
+
+.logo img {
+
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+
+}
+
+header ul {
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+        
+}
+
+header ul li {
+
+    margin: 40px;
+
+}
+
+header ul li a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.connect {
+
+    margin-top: 60px;
+    margin-right: 20px;
+
+}
+
+.connect a {
+    
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    
+}
+
+
+main {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+
+section h1 {
+    
+    font-size: 150px;
+    text-align: center;
+    
+
+}
+
+section span {
+
+    font-family: cursive;
+    font-weight: normal;
+
+}
+
+section p {
+
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+section button {
+
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 290px;
+    
+}
+
+section button a {
+
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+
+}
+
+
+.laterais img {
+
+    width: 300px;
+    height: 900px;
+
+}
+
+.telapequena {
+
+    display: none;
+
+}
+
+
+
+footer {
+
+    display: flex;  
+    flex-direction: row;
+
+
+}
+
+footer .rodape {
+
+    border-left: 02px solid black;
+    font-size: 30px;
+    padding: 40px 90px 40px 50px;
+    margin: 50px 10px 10px 50px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.rodape:first-child {
+    border-left: none;
+}
+
+footer .rodape span {
+
+    display: block;
+    margin-right: 20px;
+
+}
+
+.logofim img {
+
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+
+
+}
